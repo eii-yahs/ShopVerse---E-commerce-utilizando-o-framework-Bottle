@@ -21,28 +21,37 @@ Projeto de um e-commerce utilizando framework bottle e orientação a objetos.
 ## Acesso ao projeto
 Você pode [acessar o código-fonte do projeto](https://github.com/eii-yahs/ShopVerse---E-commerce-utilizando-o-framework-Bottle.git) ou [baixá-lo](https://github.com/eii-yahs/ShopVerse---E-commerce-utilizando-o-framework-Bottle/archive/refs/heads/main.zip).
 
-## Abrir e rodar o projeto
-Após baixar o projeto, você pode abrir com o Visual Studio Code. Para o projeto funcionar você deve ter configurado no seu PC:
-
-* Python >= 3.13.1
-* Bottle
-* python-socketio
-* werkzeug
-* eventlet
-
-Agora, na pasta do projeto abra um terminal e execute:
-
-```bash
-pip install PySide6
-pip install qt-material
-python main.py
-```
-
-Agora o projeto está pronto para ser utilizado.
-
 ## 💻 Tecnologias utilizadas
 * `Python - 3.13.1`
 * `Bottle`
 * `Socket.io`
 * `Evenlet`
 * `werkzeug`
+*  `Webtest`
+* `Pytest`
+
+## Abrir e rodar o projeto
+Na pasta do projeto abra um terminal e execute:
+
+```bash
+pip install bottle
+pip install python-socketio
+pip install werkzeug
+pip install eventlet
+python route.py
+```
+
+Agora o projeto está pronto para ser utilizado.
+
+## Rodar o teste
+Ainda na pasta do projeto abra um terminal e execute:
+
+```bash
+pip install bottle
+pip install python-socketio
+pip install werkzeug
+pip install eventlet
+pip install pytest
+pip install webtest
+pytest test_app.py
+```
