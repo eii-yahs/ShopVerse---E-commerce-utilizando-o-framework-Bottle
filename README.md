@@ -40,7 +40,7 @@ pip install werkzeug
 pip install eventlet
 python route.py
 ```
-
+*Observação: para utilizar o serviço de envio de email, vá na pasta controllers > email_service.py. Dentro da classe EmailService, no SENDER_EMAIL=" `coloque aqui seu email` " e em SENDER_PASSWORD=" `coloque aqui sua senha de app do seu email` ". Para criar uma senha de app no gmail, pesquise "senhas de app gmail" e crie a sua no email que você utilizará.* <br><br>
 Agora o projeto está pronto para ser utilizado.
 
 ## Rodar o teste
